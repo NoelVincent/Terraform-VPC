@@ -70,9 +70,6 @@ project     = " Your project name"
 access_key  = "IAM user access_key"
 secret_key  = "IAM user secret_key"
 vpc_cidr    = "VPC cidr block"
-vpc_subnets = "subnets"
-type        = "Instance type"
-ami         = "ami of the instance"
 ```
 ## 2.  Create the provider file
 > Terraform configurations must declare which providers they require, so that Terraform can install and use them. I'm using AWS as provider
