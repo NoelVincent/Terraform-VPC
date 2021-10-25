@@ -26,6 +26,25 @@ on linux_amd64
 > https://www.terraform.io/docs/language/files/index.html
 
 ##### Terraform commands
+
+###### Terraform Validation
+> This will check for any errors on the source code
+
+```sh
+terraform validate
+```
+#### Terraform Plan
+> The terraform plan command provides a preview of the actions that Terraform will take in order to configure resources per the configuration file. 
+
+```sh
+terraform plan
+```
+#### Terraform apply
+> This will execute the tf file we created
+
+```sh
+terraform apply
+```
 > https://www.terraform.io/docs/cli/commands/index.html
 
 ## 1. Declaring Variables
