@@ -26,5 +26,4 @@ on linux_amd64
 > https://www.terraform.io/docs/language/files/index.html
 
 ## 1. Declaring Variables
-
 ##### Declare the variables for initialising terraform 
