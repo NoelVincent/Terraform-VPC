@@ -26,4 +26,49 @@ on linux_amd64
 > https://www.terraform.io/docs/language/files/index.html
 
 ## 1. Declaring Variables
-##### Declare the variables for initialising terraform 
+This is used to declare the variable and pass values to terraform source code.
+```sh
+vim variable.tf
+```
+##### Declare the variables for initialising terraform
+
+```sh
+variable "project" {
+  default = "test"
+}
+variable "access_key"{
+  default = " "           #==========> provide the access_key of the IAM user
+}
+variable "secret_key"{
+  default = " "          #==========> provide the secret_key of the IAM user
+}
+variable "vpc_cidr" {
+  default = "172.16.0.0/16"
+}
+variable "vpc_subnets" {
+  default = "3"
+}
+variable "type" {
+  description = "Instance type"    
+  default = "t2.micro"
+}
+variable "ami" {
+  description = "amazon linux 2 ami"
+  default = "ami-041d6256ed0f2061c"
+}
+```
+##### Creating a variable.tfvars
+> Note : A terraform.tfvars file is used to set the actual values of the variables.
+```sh
+vim variable.tfvars
+```
+```sh
+project     = " Your project name"
+access_key  = "IAM user access_key"
+secret_key  = "IAM user secret_key"
+vpc_cidr    = "VPC cidr block"
+vpc_subnets = "subnets"
+type        = "Instance type"
+ami         = "ami of the instance"
+```
+
