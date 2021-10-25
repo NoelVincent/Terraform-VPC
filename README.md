@@ -40,7 +40,7 @@ terraform validate
 terraform plan
 ```
 #### Terraform apply
-> This will execute the tf file we created
+> This will execute the tf file that we created
 
 ```sh
 terraform apply
