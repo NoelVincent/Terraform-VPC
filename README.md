@@ -25,7 +25,7 @@ on linux_amd64
 > Note : The terrafom files must be created with .tf extension as terraform can only execute .tf files
 > https://www.terraform.io/docs/language/files/index.html
 
-##### Terraform commands
+#### Terraform commands
 
 ###### Terraform Validation
 > This will check for any errors on the source code
