@@ -1,5 +1,7 @@
 # Creating a VPC using Terraform
+Here, I am creating a VPC with 6 subnets(3 public and 3 private) along with an Internet Gateway, a NAT Gateway and 2 Route Tables(1 public and 1 private). Also, a Bastion server(having only SSH access), a webserver(HTTP and HTTPS port enabled and also SSH access from the bastion server) and a database server(with 3306 port and SSH access from bastion server)
 
+## Terraform
 Terraform is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services. Terraform codifies cloud APIs into declarative configuration files.
 https://www.terraform.io/
 
@@ -22,3 +24,7 @@ on linux_amd64
 
 > Note : The terrafom files must be created with .tf extension as terraform can only execute .tf files
 > https://www.terraform.io/docs/language/files/index.html
+
+## 1. Declaring Variables
+---
+##### Declare the variables for initialising terraform 
