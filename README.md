@@ -25,6 +25,9 @@ on linux_amd64
 > Note : The terrafom files must be created with .tf extension as terraform can only execute .tf files
 > https://www.terraform.io/docs/language/files/index.html
 
+##### Terraform commands
+> https://www.terraform.io/docs/cli/commands/index.html
+
 ## 1. Declaring Variables
 This is used to declare the variable and pass values to terraform source code.
 ```sh
