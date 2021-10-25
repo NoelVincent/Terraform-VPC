@@ -591,7 +591,7 @@ resource "aws_instance" "bastion" {
 
   ami                          =  var.ami                            #=======> ami
   instance_type                =  var.type                           #=======> Instance type
-  subnet_id                    =  aws_subnet.public2.id              #=======> Subenet where the instance should be insyalled
+  subnet_id                    =  aws_subnet.public2.id              #=======> Subenet where the instance should be installed
   vpc_security_group_ids       =  [ aws_security_group.bastion.id]   #=======> Adding the security gropu
   key_name                     =  aws_key_pair.key.id                #=======> Adding key pair
   tags = {
