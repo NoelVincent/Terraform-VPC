@@ -45,7 +45,7 @@ terraform plan
 ```sh
 terraform apply
 ```
-> https://www.terraform.io/docs/cli/commands/index.html
+https://www.terraform.io/docs/cli/commands/index.html
 
 ## 1. Declaring Variables
 This is used to declare the variable and pass values to terraform source code.
