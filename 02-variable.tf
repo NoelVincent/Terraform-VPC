@@ -3,11 +3,11 @@ variable "project" {
 }
 
 variable "access_key"{
-  default = "AKIATHTPDU375Y22ECMN"
+  default = "AKIATHTPDU375Y22ECWE"
 }
 
 variable "secret_key"{
-  default = "QG1m1TBG1IIyfcDjvBjsnuIQ1SHDOewKmsMRue6k"
+  default = "QG1m1TBG1IIyfcDjvBjsnuIQ1SHDOewKmsMRu78k"
 }
 
 variable "vpc_cidr" {
