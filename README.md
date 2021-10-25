@@ -1,2 +1,2 @@
-# Terraform---VPC
+# Terraform - VPC
 Creating a VPC using terraform
